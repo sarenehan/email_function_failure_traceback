@@ -31,11 +31,11 @@ def send_email(message, subject_line, to_address, from_address):
         send_email,
         subject_line='my function failed',
         to_address='example@example.com',
-        from_address='example@exaple.com'))
+        from_address='example@example.com'))
 def my_function():
     assert 1 == 2
 
 
-# This will send an email to `exaple@exaple.com` with the error traceback.
+# This will send an email to `example@example.com` with the error traceback.
 my_function()
 ```
